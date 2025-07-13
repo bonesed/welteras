@@ -191,9 +191,20 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    color: var(--dark-color);
+}
 .header-logo img {
-    height: 45px;
+    height: 40px;
     width: auto;
+}
+.header-logo span {
+    font-family: var(--font-family-heading);
+    font-size: 1.5rem;
 }
 .header-buttons {
     display: flex;
@@ -625,5 +636,3 @@ img {
         flex-direction: column;
     }
 }
-
-
